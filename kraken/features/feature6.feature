@@ -15,5 +15,5 @@ Scenario: Inicio sesión y creo un post
   And I click on new post
   And I wait for 2 seconds
   And I enter text "Título"
-  And I wait for 2 seconds
+  And I wait for 5 seconds
   And I click on publish
