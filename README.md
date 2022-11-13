@@ -20,48 +20,12 @@ Entrega de la Semana 5: Pruebas E2E
 4. Correr las pruebas con Kraken.
 
 ## Escenarios de prueba
-### Kraken
-#### 1
-Se inicia sesión y se entra al sitio de blog.
-#### 2
-Se inicia sesión y se entra a la página de posts.
-#### 3
-Se inicia sesión y se entra a la sección de páginas.
-#### 4
-Se inicia sesión y se entra a la sección de tags.
-#### 5
-Se inicia sesión y se entra a la página de members.
-#### 6
-Se inicia sesión y se crea un post con título "Título."
-#### 7
 
 | Escenario ID | Funcionalidad  | Condiciones Iniciales     | Descripción                                    | Steps to Reproduce   |Resultados Esperados|Tipo de Prueba| 
 |--------------|----------------|---------------------------|------------------------------------------------|----------------------|--------------------|--------------|
-| 1            | Iniciar sesión | Tener una cuenta de Ghost | Se inicia sesión y se entra al sitio de blog.  | Ver pasos en Kraken. | Se inicia sesión correctamente y se ingresa a la página del blog. | Positiva, caja negra. |
-
-
-#### 8
-
-#### 9
-
-#### 10
-
-#### 11
-
-#### 12
-
-#### 13
-
-#### 14
-
-#### 15
-
-#### 16
-
-#### 17
-
-#### 18
-
-#### 19
-
-#### 20
+| 1            | Iniciar sesión | Tener una cuenta de Ghost | Se inicia sesión y se entra al sitio de blog.  | Ver pasos en el archivo .feature. | Se inicia sesión correctamente y se ingresa a la página del blog. | Positiva, caja negra. |
+| 2            | Iniciar sesión | Tener una cuenta de Ghost | Se inicia sesión y se entra a la sección de posts.  | Ver pasos en el archivo .feature. | Se inicia sesión correctamente y se ingresa a la sección de posts. | Positiva, caja negra. |
+| 3            | Iniciar sesión | Tener una cuenta de Ghost | Se inicia sesión y se entra a la sección de páginas.  | Ver pasos en el archivo .feature. | Se inicia sesión correctamente y se ingresa a la sección de páginas. | Positiva, caja negra. |
+| 4            | Iniciar sesión | Tener una cuenta de Ghost | Se inicia sesión y se entra a la sección de tags.  | Ver pasos en el archivo .feature. | Se inicia sesión correctamente y se ingresa a la sección de tags. | Positiva, caja negra. |
+| 5            | Iniciar sesión | Tener una cuenta de Ghost | Se inicia sesión y se entra a la sección de members.  | Ver pasos en el archivo .feature. | Se inicia sesión correctamente y se ingresa a la sección de members. | Positiva, caja negra. |
+| 6            | Creación de Post | Tener una cuenta de Ghost | Se inicia sesión y se crea un post con título.  | Ver pasos en el archivo .feature. | Se inicia sesión correctamente y se crea un posts con título "Título." | Positiva, caja negra. |
