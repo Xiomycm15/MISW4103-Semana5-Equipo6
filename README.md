@@ -8,20 +8,26 @@ Entrega de la Semana 5: Pruebas E2E
 * Eliminar post.
 * Crear member.
 
+## Para ejecutar las pruebas
+### Kraken
+Instrucciones
+### Cypress
+Instrucciones
+
 ## Escenarios de prueba
 ### Kraken
 #### 1
-
+Se inicia sesión y se entra al sitio de blog.
 #### 2
-
+Se inicia sesión y se entra a la página de posts.
 #### 3
-
+Se inicia sesión y se entra a la sección de páginas.
 #### 4
-
+Se inicia sesión y se entra a la sección de tags.
 #### 5
-
+Se inicia sesión y se entra a la página de members.
 #### 6
-
+Se inicia sesión y se crea un post con título "Título."
 #### 7
 
 #### 8
