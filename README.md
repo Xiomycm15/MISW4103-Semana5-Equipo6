@@ -1,4 +1,4 @@
-# MISW4103-Semana5-Equipo6
+# MISW4103-Semana5-Equipo6 | Pruebas en Kraken
 Entrega de la Semana 5: Pruebas E2E
 
 ## Funcionalidades bajo prueba
