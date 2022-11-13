@@ -1,7 +1,7 @@
 Feature: Inicio de sesión
 
 @user1 @web
-Scenario: Inicio sesión y veo mis posts
+Scenario: Inicio sesión y creo un post
   Given I navigate to page "http://localhost:2368/ghost/#/signin"
   And I wait for 5 seconds
   When I enter email "<USERNAME1>"
@@ -11,4 +11,9 @@ Scenario: Inicio sesión y veo mis posts
   And I click sign in
   And I wait for 7 seconds
   And I click on posts
-  And I click on title input
+  And I wait for 3 seconds
+  And I click on new post
+  And I wait for 2 seconds
+  And I enter text "Título"
+  And I wait for 2 seconds
+  And I click on publish

@@ -39,3 +39,20 @@ When('I click on members', async function() {
     let element = await this.driver.$('#ember20');
     return await element.click();
 })
+
+When('I click on new post', async function() {
+    let element = await this.driver.$('#ember79');
+    return await element.click();
+})
+
+When('I click on title input', async function() {
+    let element = await this.driver.$('#ember101');
+    return await element.click();
+})
+
+When('I click on publish', async function() {
+    let element = await this.driver.$('.gh-btn gh-btn-editor darkgrey gh-publish-trigger');
+    return await element.click();
+})
+
+
