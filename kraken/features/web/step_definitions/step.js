@@ -24,3 +24,18 @@ When('I click on posts', async function() {
     let element = await this.driver.$('#ember9');
     return await element.click();
 })
+
+When('I click on pages', async function() {
+    let element = await this.driver.$('#ember18');
+    return await element.click();
+})
+
+When('I click on tags', async function() {
+    let element = await this.driver.$('#ember19');
+    return await element.click();
+})
+
+When('I click on members', async function() {
+    let element = await this.driver.$('#ember20');
+    return await element.click();
+})
