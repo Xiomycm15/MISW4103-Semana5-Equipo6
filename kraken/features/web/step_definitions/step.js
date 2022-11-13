@@ -19,3 +19,8 @@ When('I click on view site', async function() {
     let element = await this.driver.$('#ember23');
     return await element.click();
 })
+
+When('I click on posts', async function() {
+    let element = await this.driver.$('#ember9');
+    return await element.click();
+})
