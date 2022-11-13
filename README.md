@@ -35,6 +35,18 @@ Se inicia sesión y se entra a la página de members.
 Se inicia sesión y se crea un post con título "Título."
 #### 7
 
+| Escenario ID | Funcionalidad  | Condiciones Iniciales     | Descripción                                    | Steps to Reproduce   |Resultados Esperados|Tipo de Prueba| 
+|--------------|----------------|---------------------------|------------------------------------------------|----------------------|--------------------|--------------|
+| 1            | Iniciar sesión | Tener una cuenta de Ghost | Se inicia sesión y se entra al sitio de blog.  |   Given I navigate to page "http://localhost:2368/ghost/#/signin"
+  And I wait for 5 seconds
+  When I enter email "<USERNAME1>"
+  And I wait for 2 seconds
+  And I enter password "<PASSWORD1>"
+  And I wait for 2 seconds
+  And I click sign in
+  And I wait for 7 seconds
+  And I click on view site | Se inicia sesión correctamente y se entra al sitio de blog. | Positiva, caja negra. |
+
 #### 8
 
 #### 9
