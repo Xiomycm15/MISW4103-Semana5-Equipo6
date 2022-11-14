@@ -30,4 +30,6 @@ Entrega de la Semana 5: Pruebas E2E
 | 5            | Iniciar sesión | Tener una cuenta de Ghost | Se inicia sesión y se entra a la sección de members.  | Ver pasos en el archivo .feature. | Se inicia sesión correctamente y se ingresa a la sección de members. | Positiva, caja negra. |
 | 6            | Creación de Post | Tener una cuenta de Ghost | Se inicia sesión y se crea un post con título.  | Ver pasos en el archivo .feature. | Se inicia sesión correctamente y se crea un posts con título "Título." | Positiva, caja negra. |
 | 7            | Creación de Post | Tener una cuenta de Ghost | Se inicia sesión y se crea un post con título y contenido.  | Ver pasos en el archivo .feature. | Se inicia sesión correctamente y se crea un posts con título "Título" y contenido "Cuerpo del blog." | Positiva, caja negra. |
+| 8            | Creación de Post | Tener una cuenta de Ghost | Se inicia sesión y se crea un post con título y contenido, luego se lo despublica.  | Ver pasos en el archivo .feature. | Se inicia sesión correctamente y se crea un posts con título "Título" y contenido "Cuerpo del blog." Luego, se lo despublica y se vuelve a convertir en borrador. | Positiva, caja negra. |
+
 
